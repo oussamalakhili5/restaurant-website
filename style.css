@@ -115,3 +115,26 @@ footer {
     border-radius: 10px;
     margin-bottom: 15px;
 }
+#reservation {
+    background-color: #FFF3E0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #D35400;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3E2723;
+}
