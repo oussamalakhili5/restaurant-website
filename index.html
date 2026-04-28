@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
+    <title>Oussama's Restaurant</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,7 +27,9 @@
         <section id="home">
             <h2>Welcome to Oussama's Restaurant</h2>
             <p>Enjoy delicious food made with fresh ingredients.</p>
-            <button>View Menu</button>
+            <a href="#menu">
+                <button>View Menu</button>
+            </a>
         </section>
 
         <!-- About Section -->
@@ -40,36 +42,48 @@
         </section>
 
         <!-- Menu Section -->
-       <section id="menu">
-    <h2>Our Menu</h2>
+        <section id="menu">
+            <h2>Our Menu</h2>
 
-    <div class="menu-container">
+            <h3>Main Dishes</h3>
 
-        <div class="menu-card">
-            <h3>Pizza</h3>
-            <p>Fresh cheese pizza with tomato sauce.</p>
-            <span>$10</span>
-        </div>
+            <div class="menu-container">
 
-        <div class="menu-card">
-            <h3>Burger</h3>
-            <p>Juicy beef burger with fresh vegetables.</p>
-            <span>$8</span>
-        </div>
+                <div class="menu-card">
+                    <img src="images/pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Fresh cheese pizza with tomato sauce.</p>
+                    <span>$10</span>
+                </div>
 
-        <div class="menu-card">
-            <h3>Pasta</h3>
-            <p>Italian pasta with creamy sauce.</p>
-            <span>$12</span>
-        </div>
+                <div class="menu-card">
+                    <img src="images/burger.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Juicy beef burger with fresh vegetables.</p>
+                    <span>$8</span>
+                </div>
 
-    </div>
-</section>
+                <div class="menu-card">
+                    <img src="images/pasta.jpg" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>Italian pasta with creamy sauce.</p>
+                    <span>$12</span>
+                </div>
+
+            </div>
+
+            <h3>Drinks</h3>
+            <ul>
+                <li>Orange Juice - $4</li>
+                <li>Coffee - $3</li>
+                <li>Water - $1</li>
+            </ul>
+        </section>
 
         <!-- Contact Section -->
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: contact@myrestorant.com</p>
+            <p>Email: contact@myrestaurant.com</p>
             <p>Phone: +212 500 000 000</p>
             <p>Location: Kenitra, Morocco</p>
         </section>
