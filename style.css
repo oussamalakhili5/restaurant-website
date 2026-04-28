@@ -39,6 +39,32 @@ section {
 
 #menu {
     background-color: #F5E6D3;
+    .menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    background-color: #FFFFFF;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card h3 {
+    color: #D35400;
+}
+
+.menu-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3E2723;
+    font-size: 18px;
+}
 }
 
 #contact {
